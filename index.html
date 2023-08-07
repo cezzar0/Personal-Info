@@ -1,0 +1,125 @@
+<!DOCTYPE html> <!-- This Declaration Defines That This Document Is An HTML5 Document. -->
+<html lang="en"> <!-- The Root ELement & lang Attribute inside the <html> tag, to declare the language of the Web page -->
+
+<head>
+    <meta charset="UTF-8"> <!-- This Meta For Defining The Content Encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Setting the viewport to all devices Screens to make it responsive -->
+    <meta name="author" content="Ahmed Emad" /> <!-- The Meta for knowin the Author of this page -->
+    <meta name="keywords" content="C.V, Perosnal Info, "> <!-- Keywords for user to search in SE -->
+    <title>Personal Info</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.jpg"> <!-- The Icon For Browser Tab -->
+
+    <!-- Calling Custom Font from Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Using Font-Awesome Library to use some icons & svgs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Internal Style -->
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            color: #fff;
+            background-color: black;
+        }
+
+        div:nth-child(2) p {
+            font-size: 18px;
+        }
+
+        div img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 5px solid snow;
+            margin-right: 8%;
+        }
+        div img:hover {
+            transition: 1s ease;
+            transform: rotate(360deg);
+        }
+
+        a {
+            text-decoration: none;
+            color: #f44336;
+        }
+        a:hover {
+            color: #fff;
+            transition: 0.5s ease;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        ul {
+            padding: 0;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        li {
+            font-size: 18px;
+            margin: 10px auto;
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Start The Main Container -->
+    <h1 style="padding-left: 1em;">My Personal Info:</h1>
+    <div style="display: flex; justify-content: space-around; border-bottom: 2px solid; padding: 1.2em;">
+        <div>
+            <h2>Name: Ahmed Emad Hanafi</h2>
+            <h3>Age: 21</h3>
+            <h3>Front-End Developer</h3>
+            <p>
+                <b>Email:</b> <a href="mailto:cezzaroo0@gmail.com" target="_blank" rel="gmail">cezzaroo0@gmail.com</a>
+            </p>
+            <p>
+                <b>Github:</b> <a href="https://github.com/cezzar0" target="_blank"rel="Github">https://github.com/cezzar0</a>
+            </p>
+        </div>
+
+        <img src="images/Profile Picture.jpg" alt="Profile">
+
+        <div>
+            <h2>Social Media:</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/AhmedEmad.CZ/" target="_blank">Facebook <i class="fa-brands fa-facebook fa-lg"></i></i></a></li>
+                <li><a href="https://www.instagram.com/cezzaro0/" target="_blank">Instagram <i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ahmed-emad-9b338a22b/" target="_blank">LinkedIn <i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Start Info Section -->
+    <h1 style="padding-left: 1em;">About Me:</h1>
+
+    <div>
+        <div style="display: flex; flex-direction: row; justify-content: space-around;">
+            <p style="padding: 1.5em; border: 2px dashed #fff;">Hi, my name is Ahmed and I'm a Jonior Front End. <br> As well as I also have
+                experience making software
+                and web apps. <br> I have worked at a number of companies gaining teamwork and leadership skills. <br>
+                I am a passionate and dedicated individual with a strong interest in computer science and its applications. <br> From a young age, I have been fascinated by computers and the ever-evolving field of technology. <br> I have a deep love for reading, exploring, and continuously learning about the advancements in the world of technology.<br>
+                My current focus of study is front-end web development, and I aspire to become one of the top Arab programmers, with the grace of Allah. <br>
+                <b>Future Aspirations:</b><br>
+                Looking ahead, I am determined to excel in my field and contribute to the Arab programming community. <br> I aspire to be known for my expertise in web development and to create innovative and impactful digital experiences.
+            </p>
+            <ul>
+                <li style="list-style-type: none; font-size: 24px; font-weight: bold;">My Best Friends:</li>
+                <li>Khalid Abdu</li>
+                <li>Hazem Khalaf</li>
+                <li>Hazem Reda</li>
+                <li>Sohaib Alkholy</li>
+                <li>Taha Ahmed</li>
+                <li>Ali Kolaly</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
